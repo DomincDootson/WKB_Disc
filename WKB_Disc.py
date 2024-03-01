@@ -371,25 +371,3 @@ class WKB_Disc():
 		fig.colorbar(cmap, ax=axs, label = r"$t/(2\pi/\omega_{0})$").set_label(label = r"$t/(2\pi/\omega_{0})$", fontsize = 15)
 		plt.show()
 
-
-# disc = WKB_Disc(0.2835, epsilon = 0)
-# disc.motion_of_wave(0.4)
-# print(disc.Q(), 
-
-# 	disc.outer_forbidden_radius(0.4),
-# 	0.98*disc.OLR(0.4), 
-# 	disc.k_from_omega(0.4, 1.5))
-
-
-
-
-# disc.set_sigma_with_Q(1.2)
-# print(disc.sigmaR, disc.CR(1))
-# disc.plotting_k_vs_r(1)
-# disc = WKB_Disc(0.366, epsilon = 0, activeFraction = 0.5)
-# disc.set_sigma_with_Q(1.3)
-
-# print(disc.k_turning(1))
-
-# disc = WKB_Disc(sigmaR = 1/sqrt(12.4), activeFraction = 0.5, densityFile = "Disc_Density/Tapered_R_10_W_25_D_-0_G.csv")
-# print(disc.modeFinder())
